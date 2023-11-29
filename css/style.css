@@ -157,7 +157,7 @@ video {
 .cont2 {
 	width: 100%;
 	height: 720px;
-	background: url(../images/main/main_cont2.JPG) center top fixed;
+	background: url(../images/main/main_cont2.jpg) center top fixed;
 }
 .c_inner {
 	width: 1320px;
@@ -281,7 +281,7 @@ video {
     right: 0;
     top: 50%;
 	transition: all 1.2s ease 0s;
-	background: url(../images/main/main_cont3_arrow.PNG) no-repeat center top;
+	background: url(../images/main/main_cont3_arrow.png) no-repeat center top;
 }
 .next:hover {
 	transform: translateX(100px);
@@ -460,16 +460,16 @@ video {
     line-height: 28px;
 }
 .bs_li3> ul> li:nth-child(1){
-    background: url(../images/sub1/sub1-1_cont2_1.JPG) no-repeat;
+    background: url(../images/sub1/sub1-1_cont2_1.jpg) no-repeat;
 }
 .bs_li3> ul> li:nth-child(2){
-    background: url(../images/sub1/sub1-1_cont2_2.JPG) no-repeat;
+    background: url(../images/sub1/sub1-1_cont2_2.jpg) no-repeat;
 }
 .bs_li3> ul> li:nth-child(3){
-    background: url(../images/sub1/sub1-1_cont2_3.JPG) no-repeat;
+    background: url(../images/sub1/sub1-1_cont2_3.jpg) no-repeat;
 }
 .bs_li4 {
-	background: url(../images/sub1/cont3_bg.PNG) no-repeat center top;
+	background: url(../images/sub1/cont3_bg.png) no-repeat center top;
     height: 888px;
     position: relative;
     margin-bottom: 150px;
@@ -543,7 +543,7 @@ video {
 /*header*/
 .sub2 {
 	position: relative;
-	background: url(../images/sub2/header_bg.JPG) no-repeat center top;
+	background: url(../images/sub2/header_bg.jpg) no-repeat center top;
 	height: 420px;
 	z-index: 0;
 }
@@ -649,7 +649,7 @@ input:focus {outline:none;}
 /*header*/
 .sub3 {
 	position: relative;
-	background: url(../images/sub3/header_bg.JPG) no-repeat center top;
+	background: url(../images/sub3/header_bg.jpg) no-repeat center top;
 	height: 420px;
 	z-index: 0;
 }
@@ -732,7 +732,7 @@ input:focus {outline:none;}
 /*header*/
 .sub4 {
 	position: relative;
-	background: url(../images/sub4/header_bg.JPG) no-repeat center top;
+	background: url(../images/sub4/header_bg.jpg) no-repeat center top;
 	height: 420px;
 	z-index: 0;
 }
