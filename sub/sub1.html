@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+	<head>
+		<title>自空</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=1920">
+		<link href="../css/style.css" rel="stylesheet" type="text/css">
+		<link href="../images/sublogo.PNG" rel="icon" type="image/png" sizes="32x32" >
+		<script src="../js/jquery-3.5.1.min.js"></script>
+		<script src="../js/index.js"></script><!--탭 제이쿼리-->
+		<style type="text/css">
+			@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+			@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap');
+		</style>
+	</head>
+	<body>
+		<div id="header" class="sub1"><!--header-->
+			<div class="h_inner">
+				<ul id="nav">
+					<li><a href="sub1.html">회사소개</span></a></li>
+					<li><a href="sub2.html">제품상세</span></a></li>
+					<li><a href="sub3.html">이벤트</span></a></li>
+					<li><a href="sub4.html">찾아오시는 길</span></a></li>
+				</ul>
+				<a href="../index.html" class="mainlogo"><img src="../images/mainlogo.PNG" alt="메인로고"></a>
+				<ul class="link">
+					<li><a href="#"><img src="../images/shoppingbag.png" alt="shoppingbag"></a></li>
+					<li><a href="#"><img src="../images/user.png" alt="user"></a></li>
+					<li><a href="#"><img src="../images/search.png" alt="search"></a></li>
+				</ul>
+				<h1 class="sub_title">회사소개</h1>
+			</div>
+			<div class="h_fix">
+				<div class="h_fix_inner">
+					<ul id="nav" class="f_nav">
+						<li><a href="sub1.html">회사소개</span></a></li>
+						<li><a href="sub2.html">제품상세</span></a></li>
+						<li><a href="sub3.html">이벤트</span></a></li>
+						<li><a href="sub4.html">찾아오시는 길</span></a></li>
+					</ul>
+					<a href="../index.html" class="mainlogo sublogo"><img src="../images/sublogo.png" alt="서브로고"></a>
+					<ul class="link f_link">
+						<li><a href="#"><img src="../images/shoppingbag.png" alt="shoppingbag"></a></li>
+						<li><a href="#"><img src="../images/user.png" alt="user"></a></li>
+						<li><a href="#"><img src="../images/search.png" alt="search"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div><!--header-->
+		<div id="contents" class="pad_top height"><!--contents-->
+			<div id="lab">
+				<ul id="board">
+					<li class="on"><a href="#">브랜드 스토리</a>
+						<div class="brandstory">
+							<ul>
+								<li class="bs_li1">
+									<h2>일상의 작은 변화</h2>
+									<p>하나의 향을 피움으로써<br>
+									일상의 시작과 끝이<br>
+									작게나마 변화할 수 있게 해드리겠습니다.</p>
+									<a href="#target" class="scroll">scroll</a>
+									<p class="scroll_line"></p>
+								</li>
+								<div id="target">
+									<li class="bs_li2">
+										<img src="../images/sub1/sub1-1_cont1_1.JPG" alt="img1">
+										<img src="../images/sub1/sub1-1_cont1_2.JPG" alt="img2">
+										<img src="../images/sub1/sub1-1_cont1_3.JPG" alt="img3">
+										<p>'자공'은 지친 우리 곁에서<br>
+										위로가 되기 이해 노력합니다.</p>
+									</li>
+								</div>
+								<script>
+									jQuery(document).ready(function($) {
+
+											$(".scroll").click(function(event){            
+													event.preventDefault();
+													$('html,body').animate({scrollTop:$(this.hash).offset().top}, 1500);
+											});
+									});
+								</script>
+								<li class="bs_li3">
+									<ul>
+										<li>자연에 들어온 것 같은 느낌을 주기위해<br>
+										자연에서 채취한 원료를 사용하여 <br>
+										제작하였습니다.</li>
+										<li>전문 조향사와 협력하여<br>
+										자공만의 독창적인 향을 탄생시켰습니다.</li>
+										<li>사용자 분들을 생각하여<br>
+										인체에 무해한 원료만을 사용하였습니다.</li>
+									</ul>
+								</li>
+								<li class="bs_li4">
+									<p>매일 바쁘고 빠르게 흘러가는 세상<br>
+									본인의 몸과 마음도 세상에 이끌려 가기 마련입니다.<br>
+									‘스스로’를 되돌아보고 ‘비움’을 실천해 보세요.</p>
+									<img src="../images/sub1/bg-leaf-01.png" alt="leaf-01">
+									<img src="../images/sub1/bg-leaf-02.png" alt="leaf-02">
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>|</li>
+					<li><a href="#">CI 소개</a>
+						<div class="ci">
+							<ul>
+								<li class="ci_li1">
+									<div class="s1_left">
+										<h2>심볼로고</h2>
+										<p class="top_line"></p>
+									</div>
+									<div class="s1_right">
+										<p>브랜드의 시그니처 ‘연꽃’, <br>
+										상단에 포인트를 주어 향을 표현한 브랜드 명 ‘自空’을 <br>
+										둥근 테두리의 도형에 넣어 자신만의 공간에서 스스로를 비운다는 의미를 가집니다. </p>
+										<p>서브로고는 브랜드의 시그니처 ‘연꽃’에 ‘향’을 결합시켜<br>
+										심플하면서 고요한 느낌을 주었습니다.</p>
+										<img src="../images/sub1/sub1-2_cont1.JPG" alt="simbol">
+									</div>	
+								</li>
+								<li class="ci_li2">
+									<div class="s1_left">
+										<h2>전용색상</h2>
+										<p class="top_line"></p>
+									</div>
+									<div class="s1_right">
+										<p>브랜드의 전용색상은 로고에 사용된 색상을 기반으로 합니다.<br>
+										무채색 계열을 메인 색상으로 표현해 고요하면서 정적인 분위기를 연출하였고.<br>
+										노란색의 포인트 색상을 주어 향이 켜졌을 때의 동적인 느낌을 주어 세련된 이미지를 보여줍니다.  </p>
+										<img src="../images/sub1/sub1-2_cont2.JPG" alt="color">
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div><!--contents--><!--footer-->
+		<div id="footer">
+			<div class="f_inner">
+				<ul class="service">
+					<li>고객센터</li>
+					<li>070-2578-9545</li>
+					<li>10 : 00~17 : 00</li>
+					<li>LUNCH TIME 12 : 00~13 : 00</li>
+					<li>토, 일요일 및 공휴일 휴일</li></li>
+				</ul>
+				<ul class="notice">
+					<li><a href="#">공지사항</a></li>
+					<li><a href="#">NOTICE</a></li>
+					<li><a href="#">Q &amp; A</a></li>
+					<li><a href="#">FAQ</a></li>
+				</ul>
+				<ul class="info">
+					<li><a href="#">이용약관</a></li>
+					<li><a href="#">개인정보처리방침</a></li>
+					<li><a href="#">사업자등록확인</a></li>
+				</ul>
+				<ul class="sns">
+					<li><a href="#"><img src="../images/footer_sns1.PNG" alt="인스타"></a></li>
+					<li><a href="#"><img src="../images/footer_sns2.PNG" alt="유튜브"></a></li>
+					<li><a href="#"><img src="../images/footer_sns3.PNG" alt="트위터"></a></li>
+					<li><a href="#"><img src="../images/footer_sns4.PNG" alt="페이스북"></a></li>
+				</ul>
+				<p>
+					부산 중구 비프광장로 18 남포동6가 91    대표 나현진    T.070-2578-9845    F.051-451-4578<br>
+					사업자 등록 번호 658-45-12345 <br>
+					© 2020 CTKBRANDLAB INC. All rights reserved.
+				</p>
+			</div>
+		</div><!--footer-->
+		<a href="#" class="tbt"><img src="../images/top_button.png" alt="topbt"></a>
+	</body>
+</html>
